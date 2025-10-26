@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  </head>
+<body> 
+    <center>
+        <h2>Instagram Like Simulator</h2>
+        <p id="likes">0 Likes</p>
+        <button onclick="addLike()">Like</button>
+    </center>   
+    <script>
+        let count = 0;
+
+        function addLike() {
+        count = count + 1;
+        document.getElementById("likes").innerHTML = count + " Likes";
+    
+     }
+    </script>
+</body>
+</html>
+
+
